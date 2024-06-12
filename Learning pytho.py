@@ -1,10 +1,17 @@
-dic={}
-are = [1,2,2,3,3,4,4,4,5]
+word_s = str(input("Enter a word: "))
+word_a = str(input("Enter a word: "))
+alphabet_s = "Aa"
+you = 0
+for i in word_s:
+        if i in alphabet_s:
+                you = 1 + you
+for i in word_a:
+        if i in alphabet_s:
+                you = 1 + you
+print(you)
 
-for i in are:
-    if i in dic:
-        dic[i]=dic[i]+1
-    else:
-        dic[i]=1
-print(dic)
-
+        
+        
+  
+       
+   
