@@ -1,16 +1,10 @@
-word_s = str(input("Enter a word: "))
-word_a = str(input("Enter a word: "))
-alphabet_s = "Aa"
-you = 0
-for i in word_s:
-        if i in alphabet_s:
-                you = 1 + you
-for i in word_a:
-        if i in alphabet_s:
-                you = 1 + you
-print(you)
-
-        
-        
-  
+arr = [-1, -3, -2, 2, 1 , 5 ,3]
+i = 0
+j = 0
+for a in arr:
+    if a<0:
+        i = i +  1
+    else:
+        j = j + 1         
+print(i,j)
        
